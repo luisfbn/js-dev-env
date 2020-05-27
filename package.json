@@ -2,7 +2,10 @@
   "name": "js-dev-env",
   "version": "1.0.0",
   "description": "Building a JavaScript Development Environment",
-  "scripts": {},
+  "scripts": {
+    "prestart": "node buildScripts/startMessage.js",
+    "start": "node buildScripts/srcServer.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luisfbn/js-dev-env.git"
