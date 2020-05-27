@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Building a JavaScript Development Environment",
   "scripts": {
-    "prestart": "node buildScripts/startMessage.js",
-    "start": "node buildScripts/srcServer.js"
+    "prestart": "babel-node buildScripts/startMessage.js",
+    "start": "babel-node buildScripts/srcServer.js"
   },
   "repository": {
     "type": "git",

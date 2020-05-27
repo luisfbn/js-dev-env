@@ -1,3 +1,4 @@
-const chalk = require('chalk');
+//const chalk = require('chalk'); //CommonJs
+import chalk from 'chalk'; //ES6
 
 console.log(chalk.green('Starting app in dev mode...'));
